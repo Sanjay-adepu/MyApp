@@ -6,10 +6,10 @@
   "build": {
     "production": {
       "android": {
-        "buildType": "apk"   // ✅ Force APK instead of AAB
+        "buildType": "apk"
       },
       "ios": {
-        "buildType": "archive"  // ✅ Standard iOS archive for local testing or upload
+        "buildType": "archive"
       },
       "autoIncrement": true
     }
